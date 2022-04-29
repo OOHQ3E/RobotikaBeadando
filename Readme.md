@@ -4,6 +4,6 @@ Az Eszterházy Károly Katolikus Egyetem, Robotika Alapjai (2021/22. 2.félév) 
 
 ## Csapattagok
 * [Bagoly Gábor](https://github.com/OOHQ3E)
-* [Hadobás Dávid]()
+* [Hadobás Dávid](https://github.com/HadobasDavid1)
 * [Matuch Richárd](https://github.com/R1chard2001)
 
