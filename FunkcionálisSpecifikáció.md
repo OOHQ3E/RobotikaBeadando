@@ -15,6 +15,8 @@ A projektunk egy kis távirányítós autó lenne, amit webes felületen kereszt
 ### 2.2 Van saját / elhanyagolható beszerzés fontossága (van az egyetemen biztosan):
 
 * NodeMCU - (van saját, ESP8266MOD)
+* hangszóró
+* ultrahangos közelségmérő
 * ellenállások ledekhez
 * **1 színű ledek:**
   * 2db piros (van saját is)
