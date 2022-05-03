@@ -28,14 +28,14 @@ A projektunk egy kis távirányítós autó lenne, amit webes felületen kereszt
 
 * Webfelületen:
   * gomb lenyomásra előre
-  * gomb lenyomásra hátra - (tolató jelző lámpa be/ki kapcsol)
+  * gomb lenyomásra hátra - (tolató jelző lámpa be/ki kapcsol + tolatóradar közelségérzékelővel)
   * gomb lenyomásra jobbra
   * gomb lenyomásra balra  
 
 ### 3.2 Másik fajta elképzelés
 
 * Webfelületen:
-  * gomb használattal előre/hátra fele menet kiválasztása - (tolató jelző lámpa be/ki kapcsol ez alapján)
+  * gomb használattal előre/hátra fele menet kiválasztása - (tolató jelző lámpa be/ki kapcsol ez alapján + tolatóradar közelségérzékelővel)
   * slider használatával:
     * sebesség beállítása
     * kormányzás    
