@@ -1,45 +1,36 @@
 # Funkcionális specifikáció
 
-## 1. Vágyállomrendszer leírása
+## 1. Vágyálomrendszer leírása
 
-A projektunk egy kis távirányítós autó lenne, amit webes felületen keresztül lehet irányítani - mikrokontroller pedig NodeMCU lenne.
+A projektunk egy kis távirányítós autó lenne, amit webes felületen keresztül lehet irányítani - mikrokontroller pedig NodeMCU és egy Arduino Micro lenne.
 
-## 2. Igényelt alkatrészek
+## 2. Alkatrész lista:
 
-### 2.1 Kell:
+### Minden alkatrész be lett szerezve
 
-* DC motor - 2db kellene
-* L293D H-híd - 1db kellene
-* Kerekek - 4db kellene
-
-### 2.2 Van saját / elhanyagolható beszerzés fontossága (van az egyetemen biztosan):
-
-* NodeMCU - (van saját, ESP8266MOD)
-* hangszóró
-* ultrahangos közelségmérő
-* ellenállások ledekhez
+* 1db DC motor
+* 1db szervó motor
+* 1db L293D H-híd
+* 4db Kerék
+* 1db NodeMCU (ESP8266MOD)
+* 1db Arduino Micro
+* 1db hangszóró
+* 1db ultrahangos közelségmérő
 * **1 színű ledek:**
-  * 2db piros (van saját is)
-  * 3db sárga (van saját is)
+  * 2db piros
+  * 3db sárga
+* ellenállások ledekhez
+* jumper kábelek
 
 ## 3. Használati esetek (működés)
-
-### 3.1 Egyik fajta elképzelés
 
 * Webfelületen:
   * gomb lenyomásra előre
   * gomb lenyomásra hátra - (tolató jelző lámpa be/ki kapcsol + tolatóradar közelségérzékelővel)
   * gomb lenyomásra jobbra
   * gomb lenyomásra balra  
-
-### 3.2 Másik fajta elképzelés
-
-* Webfelületen:
-  * gomb használattal előre/hátra fele menet kiválasztása - (tolató jelző lámpa be/ki kapcsol ez alapján + tolatóradar közelségérzékelővel)
-  * slider használatával:
-    * sebesség beállítása
-    * kormányzás    
-
+  * gomb lenyomásra duda megszólaltatása
+  
 ## 4. Képernyőtervek (sematikus ábra és CAD tervrajz)
 
 ## 5. Forgatókönyvek (állapotátmenet gráf)
