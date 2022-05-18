@@ -2,7 +2,7 @@
 
 ## 1. Vágyálomrendszer leírása
 
-A projektunk egy kis távirányítós autó lenne, amit webes felületen keresztül lehet irányítani - mikrokontroller pedig NodeMCU és egy Arduino Micro lenne.
+A projektunk egy kis távirányítós autó lenne, amit webes felületen keresztül lehet irányítani - mikrokontroller pedig egy NodeMCU és egy Arduino Micro lenne.
 
 ## 2. Alkatrész lista:
 
