@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESP RC CAR DASHBOARD</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+        <h1>RC Car</h1>
+    </div>
+    <div class="content">
+        <div class="card-grid">
+			<table>
+				<tr>
+					<td><button class="control" onclick="horn()">Horn</button></td>
+					<td><button class="control" onclick="forward()">↑</button></td>
+					<td></td>
+				</tr>
+					<td><button class="control" onclick="left()">←</button></td>
+					<td><button class="control" onclick="backward()">↓</button></td>
+					<td><button class="control" onclick="right()">→</button></td>
+				<tr>
+				</tr>
+			</table>
+			
+			<div class="card">
+                <p class="card-title">Speed</p>
+                <p class="switch">
+                    <input type="range" onchange="updateSpeed(this)" id="speedSlider" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Speed: <span id="speedValue">0</span> &percnt;</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
