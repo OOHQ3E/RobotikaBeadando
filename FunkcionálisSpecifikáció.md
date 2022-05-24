@@ -32,7 +32,17 @@ A projektunk egy kis távirányítós autó lenne, amit webes felületen kereszt
   * gomb lenyomásra duda megszólaltatása
   * csúszka állításával sebesség
   
-## 4. Képernyőtervek (sematikus ábra és CAD tervrajz)
+## 4. Képernyőtervek (sematikus rajz és CAD tervrajz)
+
+Eredeti Fritzing fájl a /img mappában megtalálható, mint 'robotikaFritzing_bb.fzz'
+
+### 4.1: Sematikus rajz:
+
+![SematikusRajz](https://github.com/OOHQ3E/RobotikaBeadando/blob/main/img/sematikus%20rajz.png)
+ 
+### 4.2: CAD tervrajz:
+
+![CADRajz](https://github.com/OOHQ3E/RobotikaBeadando/blob/main/img/robotikaFritzing_bb.png)
 
 ## 5. Forgatókönyvek (állapotátmenet gráf)
 
