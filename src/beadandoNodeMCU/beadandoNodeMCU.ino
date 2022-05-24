@@ -18,19 +18,19 @@ AsyncWebSocket ws("/ws");
 // Initialize LittleFS
 void initFS() {
   if (!LittleFS.begin()) {
-    Serial.println("An error has occurred while mounting LittleFS");
+    Serial.println("Debug: An error has occurred while mounting LittleFS");
   }
   else{
-   Serial.println("LittleFS mounted successfully");
+   Serial.println("Debug: LittleFS mounted successfully");
   }
 }
 
 // Initialize WiFi
 void initWiFi() {
   WiFi.softAP(ssid, password);
-  Serial.print("Starting WiFi network ..");
+  Serial.print("Debug: Starting WiFi network ..");
   IPAddress IP = WiFi.softAPIP();
-  Serial.println("AP IP Address: ");
+  Serial.println("Debug: AP IP Address: ");
   Serial.println(IP);
 }
 
@@ -49,10 +49,10 @@ void handleWebSocketMessage(void *arg, uint8_t *data, size_t len) {
 void onEvent(AsyncWebSocket *server, AsyncWebSocketClient *client, AwsEventType type, void *arg, uint8_t *data, size_t len) {
   switch (type) {
     case WS_EVT_CONNECT:
-      Serial.printf("WebSocket client #%u connected from %s\n", client->id(), client->remoteIP().toString().c_str());
+      Serial.printf("Debug: WebSocket client #%u connected from %s\n", client->id(), client->remoteIP().toString().c_str());
       break;
     case WS_EVT_DISCONNECT:
-      Serial.printf("WebSocket client #%u disconnected\n", client->id());
+      Serial.printf("Debug: WebSocket client #%u disconnected\n", client->id());
       break;
     case WS_EVT_DATA:
       handleWebSocketMessage(arg, data, len);

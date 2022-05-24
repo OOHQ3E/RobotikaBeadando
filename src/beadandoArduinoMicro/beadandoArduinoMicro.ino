@@ -39,19 +39,21 @@ void setup() {
   pinMode(motorEnable1, OUTPUT);
   pinMode(motorIn1, OUTPUT);
   pinMode(motorIn2, OUTPUT);
-  steering.attach(steeringPin);
   pinMode(horn, OUTPUT);
   pinMode(usEcho, INPUT);
   pinMode(usTrigger, OUTPUT);
   pinMode(led, OUTPUT);
   digitalWrite(led, HIGH);
   pinMode(rLed, OUTPUT);
+  steering.attach(steeringPin);
+  
   change();
 }
 
 int counter = 0;
 void loop() {
-  // put your main code here, to run repeatedly:
+  
+  
   if (Serial1.available()) {
     String line = Serial1.readString();
     interpret(line);
